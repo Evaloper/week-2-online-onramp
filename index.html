@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./frontend/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
     <title>Week-2-Task</title>
   </head>
   <body>
@@ -12,16 +18,20 @@
   </body>
   <script src="./frontend/script.js"></script>
   <div id="main">
-    <section class="contact">CONTACT US</section>
-    <section class="form">
+    <div class="contact">CONTACT US</div>
+    <div class="form">
       <form action="">
-        <input type="text" placeholder="NAME" />
-        <input type="text" placeholder="EMAIL" />
-        <input type="text" placeholder="PHONE NUMBER" />
-        <input type="text" placeholder="MESSAGE" />
-        <button class="button1">CANCEL</button>
-        <button class="button2">SEND</button>
+        <div class="name"><input type="text" placeholder="NAME" /></div>
+        <div class="email"><input type="text" placeholder="EMAIL" /></div>
+        <div class="number">
+          <input type="text" placeholder="PHONE NUMBER" />
+        </div>
+        <div class="message"><input type="text" placeholder="MESSAGE" /></div>
+        <div class="button">
+          <button>CANCEL</button>
+          <button>SEND</button>
+        </div>
       </form>
-    </section>
+    </div>
   </div>
 </html>

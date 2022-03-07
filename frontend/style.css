@@ -1,17 +1,51 @@
 body {
-  background-color: #ea436b;
+  background-color: #ea2e6c;
+  font-family: "Roboto", sans-serif;
 }
 
 #main {
   background-color: #3c3c3c;
+  width: 550px;
+  display: flex;
+  height: 280px;
+  border-radius: 15px;
 }
 .contact {
+  display: flex;
+  margin: 50px 100px 0px 50px;
+  width: 15px;
+  font-size: 22px;
+  color: #ea2e6c;
+  letter-spacing: 2px;
 }
 
 .form {
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+  margin: 50px 0px 0px 80px;
 }
-.button1 {
+input {
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-style: ridge;
+  background-color: #3c3c3c;
+  border-color: 666666;
+  margin-bottom: 15px;
+  width: 250px;
 }
-
-.button2 {
+button {
+  background-color: #3c3c3c;
+  border-style: none;
+  color: #ea2e6c;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+.message {
+  margin-top: 30px;
 }
